@@ -1,0 +1,133 @@
+/* About Page Styles */
+
+.about-container {
+    background: #f8f9fa;
+    min-height: 100vh;
+    padding: 3rem 0;
+}
+
+.about-header {
+    background: linear-gradient(135deg, #28a745 0%, #20b2aa 100%);
+    color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 24px rgba(40, 167, 69, 0.15);
+}
+
+.about-header h2 {
+    font-weight: 700;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.about-section {
+    margin-bottom: 2rem;
+}
+
+.about-section h4 {
+    color: #28a745;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.feature-card {
+    background: #e0f7f7;
+    border-left: 4px solid #28a745;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateX(4px);
+    box-shadow: 0 4px 12px rgba(32, 178, 170, 0.15);
+}
+
+.feature-card h6 {
+    color: #20b2aa;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.feature-card p {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.cta-section {
+    margin-top: 2rem;
+    padding: 2rem;
+    background: #e0f7f7;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.cta-section h5 {
+    color: #20b2aa;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.footer-text {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+}
+
+.footer-text p {
+    margin: 0.5rem 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-header {
+        padding: 1.5rem;
+    }
+
+    .about-header h2 {
+        font-size: 1.8rem;
+    }
+
+    .feature-card {
+        margin-bottom: 1rem;
+    }
+
+    .cta-section {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-header {
+        padding: 1rem;
+    }
+
+    .about-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-section h4 {
+        font-size: 1.1rem;
+    }
+
+    .feature-card {
+        padding: 1rem;
+    }
+}
+
+/* Button Hover Effects */
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}

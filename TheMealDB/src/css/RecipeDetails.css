@@ -1,0 +1,110 @@
+/* RecipeDetails Page Styles */
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+
+    .col-md-5,
+    .col-md-7 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .card {
+        margin-top: 1.5rem !important;
+    }
+
+    .btn-lg {
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .card-header h5 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .d-flex.gap-3 {
+        flex-direction: column;
+    }
+
+    .btn-lg {
+        width: 100%;
+    }
+
+    .row.g-4 {
+        gap: 0.5rem !important;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .badge {
+        font-size: 12px !important;
+    }
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Card Hover Effects */
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 24px rgba(32, 178, 170, 0.15) !important;
+}
+
+/* Button Hover Effects */
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+}
+
+/* Ingredient Item Styling */
+[style*="background: #f8f9fa"] {
+    transition: all 0.3s ease;
+}
+
+[style*="background: #f8f9fa"]:hover {
+    background: #e8f5e9 !important;
+    transform: translateX(4px);
+}
+
+/* Instructions Text */
+.card-body {
+    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Badge Styling */
+.badge {
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+/* Image Container */
+img[alt*="recipe"],
+img[alt*="meal"] {
+    transition: transform 0.3s ease;
+}
+
+img[alt*="recipe"]:hover,
+img[alt*="meal"]:hover {
+    transform: scale(1.02);
+}

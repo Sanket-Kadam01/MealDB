@@ -1,0 +1,59 @@
+########################################################
+# React (Vite) - TheMealDB folder
+########################################################
+
+TheMealDB/node_modules
+TheMealDB/dist
+
+# React environment files
+TheMealDB/.env
+TheMealDB/.env.local
+TheMealDB/.env.*.local
+
+# Optional
+TheMealDB/.DS_Store
+TheMealDB/npm-debug.log*
+TheMealDB/yarn-debug.log*
+TheMealDB/yarn-error.log*
+TheMealDB/pnpm-debug.log*
+
+########################################################
+# Spring Boot (Maven) - Backend folder
+########################################################
+
+# Maven target directory
+Backend/target/
+
+# IDE specific
+Backend/.idea/
+Backend/*.iml
+Backend/*.ipr
+Backend/*.iws
+
+Backend/.project
+Backend/.classpath
+Backend/.settings/
+Backend/bin/
+
+Backend/.vscode/
+
+# Maven Wrapper
+Backend/.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+Backend/*.log
+Backend/*.out
+
+# Spring environment + secrets
+Backend/application.properties
+Backend/application.yml
+Backend/application-*.properties
+Backend/application-*.yml
+Backend/*.env
+
+########################################################
+# General / OS files
+########################################################
+
+.DS_Store
+Thumbs.db
